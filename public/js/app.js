@@ -49942,9 +49942,9 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! E:\Users\andre\Desktop\BooleanCareers\laravel-autenticazione\resources\js\app.js */"./resources/js/app.js");
-__webpack_require__(/*! E:\Users\andre\Desktop\BooleanCareers\laravel-autenticazione\resources\sass\app.scss */"./resources/sass/app.scss");
-module.exports = __webpack_require__(/*! E:\Users\andre\Desktop\BooleanCareers\laravel-autenticazione\resources\sass\front.scss */"./resources/sass/front.scss");
+__webpack_require__(/*! E:\Users\andre\Desktop\BooleanCareers\laravel-auth\resources\js\app.js */"./resources/js/app.js");
+__webpack_require__(/*! E:\Users\andre\Desktop\BooleanCareers\laravel-auth\resources\sass\app.scss */"./resources/sass/app.scss");
+module.exports = __webpack_require__(/*! E:\Users\andre\Desktop\BooleanCareers\laravel-auth\resources\sass\front.scss */"./resources/sass/front.scss");
 
 
 /***/ })

@@ -19544,3 +19544,23 @@ readers do not read off random characters that represent icons */
 .fa-zhihu:before {
   content: "\F63F";
 }
+
+body {
+  background-image: url("https://images4.alphacoders.com/176/176126.jpg");
+  color: white !important;
+}
+
+.navbar {
+  background-color: rgb(77, 77, 77) !important;
+}
+.navbar .container a {
+  color: white !important;
+}
+
+.card {
+  background-color: rgb(77, 77, 77) !important;
+}
+
+.dropdown-menu {
+  background-color: rgb(77, 77, 77) !important;
+}

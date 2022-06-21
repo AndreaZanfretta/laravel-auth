@@ -12,7 +12,7 @@
         <!-- Styles -->
         <link href="{{ asset('css/front.css') }}" rel="stylesheet">
 
-        <style>
+       {{--  <style>
             html, body {
                 background-color: #fff;
                 color: #636b6f;
@@ -63,7 +63,7 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
-        </style>
+        </style> --}}
     </head>
     <body>
         <div class="flex-center position-ref full-height">
