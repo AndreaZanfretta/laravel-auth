@@ -15,7 +15,11 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    {{ __('You are logged in!') }} <br>
+                    <a href="{{route('admin.posts.index')}}">
+                        <div class="btn btn-info">Lista Post</div>
+                    </a>
+                    
                 </div>
             </div>
         </div>
