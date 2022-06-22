@@ -10,6 +10,12 @@ use Illuminate\Support\Str;
 
 class PostController extends Controller
 {
+    
+    protected $validations = [
+        'title' => 'required|max:100',
+        'content' => 'required',
+    ];
+
     /**
      * Display a listing of the resource.
      *
@@ -39,6 +45,7 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
+        $request->validate($this->validations);
         $data = $request->all();
         $newPost = new Post();
         $newPost->title = $data['title'];

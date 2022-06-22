@@ -5,11 +5,21 @@
     @csrf
     <div class="form-group">
       <label for="title">Titolo</label>
-      <input type="title" class="form-control" id="title" name="title" placeholder="Inserisci Titolo" value="{{old('title')}}">
+      <input type="title" class="form-control @error('title') is-invalid @enderror"  id="title" name="title" placeholder="Inserisci Titolo" value="{{old('title')}}">
+      @error('title')
+            <div class="alert alert-danger">
+                Titolo Non valido
+            </div>
+        @enderror
     </div>
     <div class="form-group">
       <label for="content">Content</label>
-      <textarea class="form-control" name="content" id="content"  cols="30" rows="10" placeholder="Inserisci Testo">{{old('content')}}</textarea>
+      <textarea class="form-control @error('content') is-invalid @enderror" name="content" id="content"  cols="30" rows="10" placeholder="Inserisci Testo">{{old('content')}}</textarea>
+      @error('content')
+            <div class="alert alert-danger">
+                Contenuto Non valido
+            </div>
+          @enderror
     </div>
     <div class="form-check">
       <input type="checkbox" name="published" class="form-check-input" id="published">
