@@ -2383,29 +2383,29 @@ fieldset:disabled a.btn {
 
 .btn-warning {
   color: #212529;
-  background-color: #59df00;
-  border-color: #dfbd00;
+  background-color: #ffed4a;
+  border-color: #ffed4a;
 }
 .btn-warning:hover {
   color: #212529;
-  background-color: #dfbd00;
-  border-color: #dfbd00;
+  background-color: #ffe924;
+  border-color: #ffe817;
 }
 .btn-warning:focus, .btn-warning.focus {
   color: #212529;
-  background-color: dfbd00#ffe924;
-  border-color: #dfbd00;
+  background-color: #ffe924;
+  border-color: #ffe817;
   box-shadow: 0 0 0 0.2rem rgba(222, 207, 69, 0.5);
 }
 .btn-warning.disabled, .btn-warning:disabled {
   color: #212529;
-  background-color: #dfbd00;
-  border-color: #dfbd00;
+  background-color: #ffed4a;
+  border-color: #ffed4a;
 }
 .btn-warning:not(:disabled):not(.disabled):active, .btn-warning:not(:disabled):not(.disabled).active, .show > .btn-warning.dropdown-toggle {
   color: #212529;
-  background-color: #dfbd00;
-  border-color: #dfbd00;
+  background-color: #ffe817;
+  border-color: #ffe70a;
 }
 .btn-warning:not(:disabled):not(.disabled):active:focus, .btn-warning:not(:disabled):not(.disabled).active:focus, .show > .btn-warning.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(222, 207, 69, 0.5);
@@ -19545,6 +19545,12 @@ readers do not read off random characters that represent icons */
   content: "\F63F";
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-image: url("https://images4.alphacoders.com/176/176126.jpg");
   color: white !important;
@@ -19563,4 +19569,11 @@ body {
 
 .dropdown-menu {
   background-color: rgb(77, 77, 77) !important;
+}
+
+table {
+  color: white !important;
+}
+table a {
+  color: white !important;
 }
